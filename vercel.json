@@ -1,9 +1,16 @@
 {
-    "builds": [
-      {
-        "src": "angular.json",
-        "use": "@vercel/static-build",
-        "config": { "distDir": "dist/landing-page" }
-      }
-    ]
-  }
+  "version": 2,
+  "builds": [
+    {
+      "src": "angular.json",
+      "use": "@vercel/static-build",
+      "config": { "distDir": "dist/landing-page" }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
