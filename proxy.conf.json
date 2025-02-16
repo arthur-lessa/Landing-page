@@ -1,0 +1,7 @@
+{
+    "/api": {
+      "target": "https://faed47pcwb7biktidlecuafty0aegep.lambda-url.us-east-1.on.aws",
+      "secure": false,
+      "changeOrigin": true
+    }
+  }
